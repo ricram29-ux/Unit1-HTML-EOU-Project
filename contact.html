@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
 </head>
 <body>
-    
+  <h1>Riccardo Ramirez</h1>
+  <p>Computer Science Student | BCTS Class of 2029</p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="interests.html">Interests</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Get In Touch</h2>
+
+    <section>
+      <h3>Contact Me</h3>
+      <p>
+        Feel free to reach out if you have questions about my work, want to collaborate on a project, or just want to connect with a fellow CS student!
+        You can use the form below or connect with me on GitHub.
+      </p>
+    </section>
+
+    <section>
+      <h3>Send a Message</h3>
+      <form action="index.html" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="subject">Subject:</label><br />
+        <input type="text" id="subject" name="subject" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <section>
+      <h3>Other Ways to Connect</h3>
+      <p><strong>School Email:</strong> <a href="mailto:ricram29@bergen.org">ricram29@bergen.org</a></p>
+
+      <p><strong>Find Me Online:</strong></p>
+      <ul>
+        <li>
+          <a href="https://github.com/ricram29-ux" target="_blank">GitHub</a> – Check out my code repositories.
+        </li>
+        <li>
+          <a href="https://www.bergen.org/" target="_blank">Bergen Tech's Website</a> – Learn more about my school.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>About BCTS-Teterboro</h3>
+      <p>Bergen County Technical Schools – Teterboro Campus</p>
+      <p>Computer Science Program</p>
+      <p>Intro to Programming (9th Grade)</p>
+    </section>
+  </main>
+
+  <hr />
+
+  <footer>
+    <p>&copy; Riccardo Ramirez, All Rights Reserved.</p>
+    <p>BCTS-Teterboro Computer Science Program</p>
+    <p>
+      <a href="mailto:ricram29@bergen.org">Email</a> |
+      <a href="https://github.com/ricram29-ux">GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>
