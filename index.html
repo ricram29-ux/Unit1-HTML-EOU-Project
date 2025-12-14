@@ -3,36 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Home | Riccardo Ramirez</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Riccardo Ramirez</h1>
-  <p>Computer Science Student | BCTS Class of 2029</p>
-
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="interests.html">Interests</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
+  <header>
+    <h1>Riccardo Ramirez</h1>
+    <p>Computer Science Student | BCTS Class of 2029</p>
+    <nav>
+      <span class="nav-toggle">&#9776;</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <main>
-    <section>
-      <h2>Welcome to My Portfolio</h2>
-      <img src="images/WIN_20251008_12_16_03_Pro.jpg" alt="Photo of Riccardo Ramirez" width="400" />
-      <p>
-        Hi! I'm Riccardo, a freshman in the Computer Science program at Bergen County Technical Schools in Teterboro.
-        I'm currently learning HTML, CSS, JavaScript, and Bootstrap as part of my Introduction to Programming course.
-      </p>
-      <p>
-        This portfolio showcases the skills I'm developing as I begin my journey in computer science. Over the next four years, I'll be learning Python, backend frameworks, and completing advanced CS projects.
-      </p>
-      <h3><a href="about.html">Learn more about me →</a></h3>
+    <section class="hero container">
+      <img src="images/WIN_20251008_12_16_03_Pro.jpg" alt="Photo of Riccardo Ramirez" class="hero-img" />
+      <div class="hero-text">
+        <h2>Welcome to My Portfolio</h2>
+        <p>
+          Hi! I'm Riccardo, a freshman in the Computer Science program at Bergen County Technical Schools in Teterboro. I'm currently learning HTML, CSS, JavaScript, and Bootstrap as part of my Introduction to Programming course.
+        </p>
+        <p>
+          This portfolio showcases the skills I'm developing as I begin my journey in computer science. Over the next four years, I'll be learning Python, backend frameworks, and completing advanced CS projects.
+        </p>
+        <h3><a href="about.html">Learn more about me →</a></h3>
+      </div>
     </section>
   </main>
-
-  <hr />
 
   <footer>
     <p>&copy; Riccardo Ramirez. All rights reserved.</p>
